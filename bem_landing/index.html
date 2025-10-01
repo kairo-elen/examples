@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студенческий портал - Твой путь к успеху</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="page">
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <span class="header__logo-text">StudyHub</span>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="#courses" class="header__nav-link">Курсы</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#about" class="header__nav-link">О нас</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#contact" class="header__nav-link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__actions">
+                <button class="header__btn header__btn--login">Войти</button>
+                <button class="header__btn header__btn--signup">Регистрация</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Главная секция -->
+    <section class="hero">
+        <div class="hero__container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Твой путь к <span class="hero__title-accent">успешной карьере</span> начинается здесь
+                </h1>
+                <p class="hero__description">
+                    Присоединяйся к тысячам студентов, которые уже строят свое будущее с нашими курсами и программами
+                </p>
+                <div class="hero__actions">
+                    <button class="hero__btn hero__btn--primary">Начать обучение</button>
+                    <button class="hero__btn hero__btn--secondary">Узнать больше</button>
+                </div>
+                <div class="hero__stats">
+                    <div class="hero__stat">
+                        <span class="hero__stat-number">10,000+</span>
+                        <span class="hero__stat-label">Студентов</span>
+                    </div>
+                    <div class="hero__stat">
+                        <span class="hero__stat-number">500+</span>
+                        <span class="hero__stat-label">Курсов</span>
+                    </div>
+                    <div class="hero__stat">
+                        <span class="hero__stat-number">95%</span>
+                        <span class="hero__stat-label">Трудоустройство</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__image">
+                <div class="hero__image-placeholder">
+                    <span class="hero__image-text">📚</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция с карточками -->
+    <section class="cards" id="courses">
+        <div class="cards__container">
+            <div class="cards__header">
+                <h2 class="cards__title">Популярные направления</h2>
+                <p class="cards__subtitle">Выбери свою специальность и начни карьеру мечты</p>
+            </div>
+            <div class="cards__grid">
+                <article class="card">
+                    <div class="card__icon">💻</div>
+                    <h3 class="card__title">Программирование</h3>
+                    <p class="card__description">
+                        Изучи современные языки программирования и фреймворки. 
+                        От основ до продвинутых техник разработки.
+                    </p>
+                    <ul class="card__features">
+                        <li class="card__feature">JavaScript, Python, Java</li>
+                        <li class="card__feature">React, Node.js, Django</li>
+                        <li class="card__feature">Проектная работа</li>
+                    </ul>
+                    <button class="card__btn">Подробнее</button>
+                </article>
+
+                <article class="card">
+                    <div class="card__icon">🎨</div>
+                    <h3 class="card__title">Дизайн</h3>
+                    <p class="card__description">
+                        Создавай потрясающие интерфейсы и визуальные решения. 
+                        UX/UI дизайн для цифровых продуктов.
+                    </p>
+                    <ul class="card__features">
+                        <li class="card__feature">Figma, Adobe Creative Suite</li>
+                        <li class="card__feature">UX исследования</li>
+                        <li class="card__feature">Портфолио проектов</li>
+                    </ul>
+                    <button class="card__btn">Подробнее</button>
+                </article>
+
+                <article class="card">
+                    <div class="card__icon">📊</div>
+                    <h3 class="card__title">Аналитика данных</h3>
+                    <p class="card__description">
+                        Анализируй большие данные и принимай решения на основе фактов. 
+                        Машинное обучение и статистика.
+                    </p>
+                    <ul class="card__features">
+                        <li class="card__feature">Python, R, SQL</li>
+                        <li class="card__feature">Machine Learning</li>
+                        <li class="card__feature">Визуализация данных</li>
+                    </ul>
+                    <button class="card__btn">Подробнее</button>
+                </article>
+
+                <article class="card">
+                    <div class="card__icon">📱</div>
+                    <h3 class="card__title">Мобильная разработка</h3>
+                    <p class="card__description">
+                        Создавай мобильные приложения для iOS и Android. 
+                        Нативная и кроссплатформенная разработка.
+                    </p>
+                    <ul class="card__features">
+                        <li class="card__feature">Swift, Kotlin, Flutter</li>
+                        <li class="card__feature">React Native</li>
+                        <li class="card__feature">Публикация в App Store</li>
+                    </ul>
+                    <button class="card__btn">Подробнее</button>
+                </article>
+
+                <article class="card">
+                    <div class="card__icon">🚀</div>
+                    <h3 class="card__title">Маркетинг</h3>
+                    <p class="card__description">
+                        Продвигай продукты и бренды в цифровом мире. 
+                        SMM, контент-маркетинг и аналитика.
+                    </p>
+                    <ul class="card__features">
+                        <li class="card__feature">Google Analytics, Яндекс.Метрика</li>
+                        <li class="card__feature">Социальные сети</li>
+                        <li class="card__feature">Контент-стратегия</li>
+                    </ul>
+                    <button class="card__btn">Подробнее</button>
+                </article>
+
+                <article class="card">
+                    <div class="card__icon">🔒</div>
+                    <h3 class="card__title">Кибербезопасность</h3>
+                    <p class="card__description">
+                        Защищай цифровые системы от угроз. 
+                        Этичный хакинг и информационная безопасность.
+                    </p>
+                    <ul class="card__features">
+                        <li class="card__feature">Пентестинг</li>
+                        <li class="card__feature">Сетевая безопасность</li>
+                        <li class="card__feature">Сертификации</li>
+                    </ul>
+                    <button class="card__btn">Подробнее</button>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__title">StudyHub</h3>
+                    <p class="footer__description">
+                        Образовательная платформа для студентов, которые хотят построить успешную карьеру в IT
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link">VK</a>
+                        <a href="#" class="footer__social-link">Telegram</a>
+                        <a href="#" class="footer__social-link">YouTube</a>
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Обучение</h4>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Все курсы</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Бесплатные курсы</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Стажировки</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Карьерные консультации</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Поддержка</h4>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Помощь</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">FAQ</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Контакты</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Обратная связь</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Контакты</h4>
+                    <div class="footer__contact">
+                        <p class="footer__contact-item">📧 info@studyhub.ru</p>
+                        <p class="footer__contact-item">📞 +7 (999) 123-45-67</p>
+                        <p class="footer__contact-item">📍 Москва, ул. Примерная, 123</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2024 StudyHub. Все права защищены.</p>
+                <div class="footer__legal">
+                    <a href="#" class="footer__legal-link">Политика конфиденциальности</a>
+                    <a href="#" class="footer__legal-link">Пользовательское соглашение</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
